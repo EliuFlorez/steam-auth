@@ -1,0 +1,21 @@
+{
+    "name": "eliuflorez/steam-auth",
+    "description": "Laravel Steam Auth",
+    "keywords": ["steam", "laravel", "auth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eliu Florez",
+            "email": "eliufz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EliuFlorez\\SteamAuth\\": "src"
+        }
+    }
+}
